@@ -19,8 +19,6 @@ const getData = async (id: string) => {
     return data
 }
 
-// type Params = Promise<{ id: string }>
-
 
 const IdPage = async ({params}: { params: { id: string }}) => {
 
